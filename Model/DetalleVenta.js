@@ -1,4 +1,7 @@
 export class DetalleVenta{
-    id_DetalleVenta
-    idProductos_DetalleVenta
+    constructor(id,idProductos){
+        this.id_DetalleVenta=id;
+        this.idProductos_DetalleVenta=idProductos;
+    }
+    
 }
