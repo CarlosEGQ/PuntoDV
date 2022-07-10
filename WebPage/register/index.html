@@ -8,6 +8,28 @@
     <title>Registro</title>
 </head>
 <body>
-    
+    <form id="conteiner" class="conteiner">
+
+        <h1>Registro</h1>
+        <!-- id,nombre,apellido,fechaNac,pais,fechaRegis,sexo -->
+        
+        <input id="nombre" required type="text" placeholder="Nombre" min="2">
+        
+        <input id="apellido" required type="text" placeholder="Apellido">
+        
+        <input id="fechaNac" required type="date"  min="1922-01-01" max="2004-12-31">
+        
+        <input id="pais" required type="text" placeholder="Pais">
+        
+        <select id="sexo" required >
+            <option value="Hombre">Hombre</option>
+            <option value="Mujer" >Mujer</option>
+            <option value="Otro" >Otro</option>
+        </select>
+
+        <input type="submit" value="">
+    </form>
+
+    <script src="app.js"></script>
 </body>
 </html>
