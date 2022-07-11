@@ -8,4 +8,7 @@ export class Cliente{
         this.fechaRegis_Cliente=fechaRegis;
         this.sexo_Cliente=sexo;
     }
+    estoy(){
+        console.log('entre a la clase');
+    }
 }
